@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script defer src="./script.js"></script>
+</head>
+<body>
+    <div class="content">
+        <h2>Floor covering price calculator</h2>
+        <form action="">
+            <input type="number" placeholder="Width" id = 'width'>
+            <hr>
+            <input type="number" placeholder="Height" id = 'height'>
+            <hr>
+            <input type="number" placeholder="Price for metre squared" id = 'price'>
+            <hr>
+            <input type="number" placeholder="Discount in percentages" id = 'discount'>
+            <hr>
+            <button>Submit</button>
+        </form>
+        <div class="result">
+            <p>Final price</p>
+            <input type="text" class="output" readonly>
+        </div>
+        <div class="formula">
+            <p>Formula</p>
+            <p>price * discounr * width * height</p>
+        </div>
+    </div>
+</body>
+</html>
